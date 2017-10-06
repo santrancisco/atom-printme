@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle printme",
+        "command": "printme:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "printme",
+          "submenu": [
+            {
+              "label": "trigger",
+              "command": "printme:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

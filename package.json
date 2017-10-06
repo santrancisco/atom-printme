@@ -1,0 +1,18 @@
+{
+  "name": "printme",
+  "main": "./lib/printme",
+  "version": "0.0.1",
+  "description": "A silly plugin to insert some text for debugging",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "printme:toggle"
+  },
+  "repository": "https://github.com/santrancisco/atom-printme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
